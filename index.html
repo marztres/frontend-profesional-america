@@ -1,10 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Blog en foundation</title>
+	<link rel="stylesheet" href="foundation/css/foundation.css" />
+    <script src="foundation/js/vendor/modernizr.js"></script>
 </head>
 <body>
-	
+	<header class="row">	
+		<h1>Blog de foundation</h1>
+		<nav class="top-bar" data-topbar>
+		  <ul class="title-area">
+		    <li class="name">
+		      <h1><a href="#">Cuantun</a></h1>
+		    </li>
+		    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+		  </ul>
+
+		  <section class="top-bar-section">
+		    
+		    <ul class="right">
+		      <li class="active"><a href="#">Boton derecha</a></li>
+		      <li class="has-dropdown">
+		        <a href="#">Lista dropdown. </a>
+		        <ul class="dropdown">
+		          <li><a href="#">Primer link</a></li>
+		        </ul>
+		      </li>
+		    </ul>
+
+		    <ul class="left">
+		      <li><a href="#">Izquierda</a></li>
+		    </ul>
+		  </section>
+		</nav>
+	</header>
+		
+	<section class="row ">
+		<section class="small-12 medium-8 large-7 columns">
+			<article class="row panel">
+				<h2>Titulo </h2>
+				<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, natus eius at minima perferendis labore eos fuga veniam debitis cupiditate ab adipisci quia. Magni, cumque, voluptatum nisi necessitatibus aliquid iusto!
+				</p>	
+				<a href="#" class="button radius small">Ir al post !</a>
+			</article>
+			<article class="row panel">
+				<h2>Titulo </h2>
+				<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, natus eius at minima perferendis labore eos fuga veniam debitis cupiditate ab adipisci quia. Magni, cumque, voluptatum nisi necessitatibus aliquid iusto!
+				</p>
+				<a href="#" class="button radius small">Ir al post !</a>		
+			</article>
+		</section>
+		<section class="small-12 medium-4 large-4 columns">
+			<section class="row" data-equalizer>
+				<article class="small-6 columns panel " data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, natus eius at minima perferendis labore eos fuga veniam debitis cupiditate ab adipisci quia. Magni, cumque, voluptatum nisi necessitatibus aliquid iusto!
+					</p>
+					
+				</article>
+				<article class="small-6 columns panel " data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, natus eius at minima perferendis labore eos fuga veniam debitis cupiditate ab adipisci quia. Magni, cumque, voluptatum nisi necessitatibus aliquid iusto!
+					</p>
+				</article>
+			</section>
+			<section class="row" data-equalizer>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, natus eius at minima perferendis labore eos fuga veniam debitis cupiditate ab adipisci quia. Magni, cumque, voluptatum nisi necessitatibus aliquid iusto!
+					</p>
+				</article>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, natus eius at minima perferendis labore eos fuga veniam debitis cupiditate ab adipisci quia. Magni, cumque, voluptatum nisi necessitatibus aliquid iusto!
+					</p>
+				</article>
+			</section>
+		</section>
+	</section>
+
+	<script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 </body>
 </html>
